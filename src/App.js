@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState, useRef, useEffect } from 'react'
-import { ReactDOM } from 'react';
+import React, { useState} from 'react'
+
 
 const App = () => {
   const [displayValue, setDisplayValue] = useState('0');
